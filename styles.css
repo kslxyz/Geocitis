@@ -1,0 +1,499 @@
+header {
+    margin-left: 10px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+body {
+ 
+    margin: 0px;
+
+    font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 1.6;
+    cursor: crosshair;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* header {
+    background-color: blue;
+    color: #fff;
+    width: 100%;
+} */
+
+
+#down {
+    width: 100%;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+#down img {
+    width: 200px;
+    height: auto;
+}
+
+#loop {
+    width: 250px;
+    height: auto;
+    z-index: 99;
+    position: fixed;
+    /* top: -100px;
+    left: -100px; */
+    /* margin-left: -100px;
+    margin-top: -100px; */
+}
+
+#console {
+    background-color: #fff;
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+    height: 25vh;
+    width: 15vw;
+    overflow-y: auto;
+    border: 3px dotted #000;
+    box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 0px 20px 10px 20px;
+}
+
+#console p {
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 0px;
+}
+
+
+section {
+    padding-right: 100px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 10px;
+
+}
+
+i {
+    font-style: oblique; 
+}
+
+b {
+    font-weight: 700;
+}
+
+.blank {
+    width: 100%;
+    height: 150vh;
+    text-align: center;
+}
+
+.blank p {
+    color: white;
+    font-size: 18px;
+    padding-top: 75vh;
+}
+
+.spacer {
+    width: 100%;
+    height: 25vh;
+}
+
+.bib {
+    font-family: "IBM Plex Serif", 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 700;
+    color: #5f7332;
+    cursor: help;
+}
+
+.bib:hover {
+    text-decoration: none;
+}
+
+.concept {
+    border-bottom: 5px dotted #0000ff;
+    padding-bottom: 0;
+    text-decoration: none;
+    cursor: context-menu;
+  }
+
+.concept:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%230000ff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 5px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    padding-bottom: .1em;
+    border-bottom: 0;
+    color: #0000ff;
+  }
+
+.keyterm {
+    background-color: #f8bbbb;
+    border-radius: 32px;
+    border: 1px solid #f8bbbb;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 12px;
+    box-shadow: 0px 5px #888888;
+    /* margin-right: 5px;
+    margin-left: 5px; */
+}
+
+.keyterm:hover {
+    text-decoration: none;
+}
+
+.keyterm:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 70;  
+    padding-bottom: 10px;  
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1));
+
+}
+
+footer a {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 160px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* text-align: center; */
+    line-height: 1;
+    margin-bottom: -30px;
+    margin-left: -10px;
+    margin-top: 30px;
+    /* margin-top: 200px; */
+    /* padding-top: 100px; */
+    /* border-top: solid 1px #000; */
+    
+}
+
+.subhead {
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+
+.title {
+    z-index: 10;
+    /* position: absolute; */
+    /* margin-top: -230px; */
+    background-color: #fff;
+    /* box-shadow: 10px 10px 25px 4px rgba(0, 0, 0, 0.2);
+    border: dotted 3px #000; */
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 12%;
+    margin-right: auto;
+    margin-top: 50px;
+    /* align-items: top; */
+}
+
+.images > div {
+    width: 33.3%;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+.vv {
+    /* width: 100%; */
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+.vv img {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+  .images > div  img {
+    width: 100%;
+    margin-bottom: auto;
+    flex-grow: 1;
+  }
+
+.images > div #rotate {
+    transform: rotate(90deg);
+}
+
+.writing {
+    margin-left: 12%;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.95);;
+    margin-top: 20px;
+    /* z-index: 1;
+    position: absolute; */
+    padding: 20px;
+}
+
+.lastp {
+    margin-bottom: 100px;
+}
+
+.firstessay {
+    border-top: none;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.main a {
+    color: blue;
+}
+
+blockquote {
+    font-family: "IBM Plex Serif", 'Times New Roman', Times, serif;
+    font-style: oblique;
+    /* font-weight: 700; */
+    color: #4c5d26;
+    font-size: 26px;
+    line-height: 1.6;
+    font-style: oblique;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+blockquote a {
+    color: #4c5d26;
+}
+
+
+h2 {
+    font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+
+/* #projects h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+} */
+
+.openquote {
+    /* text-align: center; */
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.quote {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+
+}
+
+
+
+.attribution {
+    margin-top: 10px;
+    
+}
+
+/* .col {
+    height: 100%;  
+    display: flex;
+    flex-direction: column;  */
+
+/* .sidebar {
+    flex-shrink: 0; 
+    flex: 1;
+    border-right: solid 2px #000;
+    padding-left: 20px;
+    overflow-y: auto;
+    padding-right: 70px;
+    padding-top: 10px;
+} */
+
+.main {
+    /* flex: 4; */
+    padding-left: 50px;
+    padding-right: 80px;
+    
+    overflow-y: auto;
+    
+    
+}
+
+
+ul {
+    display: block;
+    list-style: none;
+    margin-top: 30px;
+}
+
+li {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ 
+ 
+
+.essay {
+    list-style: square;
+}
+
+.project {
+    margin-left: 50px;
+    list-style: circle;
+}
+
+/* .bottom {
+    flex-grow: 1;  
+    overflow-y: auto;  
+} */
+
+img {
+    max-width: 85%;
+    /* min-width: 650px; */
+}
+
+.diagram {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.diagram #binaryhuman {
+    max-width: 700px;
+}
+
+.diagram #package {
+    /* margin-top: 30px; */
+    padding-top: 15px;
+    padding-bottom: 20px;
+    max-width: 80%;
+}
+
+.diagram #triangle {
+    max-width: 75%;
+}
+
+.projectimage {
+    text-align: left;
+    max-width: 50%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+.first {
+    margin-top: 100px;
+}
+
+
+.white img {
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.notesimage {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.notesnumber {
+    margin-top: 80px;
+    text-align: left;
+}
+
+.caption {
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: oblique;
+    margin-top: 0px;
+}
+
+.notesimage img {
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#binaryhuman {
+    max-width: 70%;
+    min-width: 550px;
+}
+
+#society {
+    max-width: 70%;
+    min-width: 550px;
+}
+
+.infection {
+    max-width: 60%;
+    min-width: 450px;
+}
+
+#virus {
+    max-width: 100%;
+    min-width: 650px;
+}
+
+.colophon p {
+    font-size: 20px;
+    font-family: "IBM Plex Serif";
+}
+
+.spacer-col {
+    width: 100%;
+    height: 10vh;
+}
